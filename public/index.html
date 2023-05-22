@@ -2,19 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <!-- HTML Meta Tags -->
+    <title>Happy Birthday Sweetest Yeenma Ever</title>
+    <meta name="description" content="I hope chu has an amazing day. ">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://osy.zip">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Love you Hunby">
+    <meta property="og:description" content="Ur borfday. ">
+    <meta property="og:image" content="./images/cardlogo.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="osy.zip">
+    <meta property="twitter:url" content="https://osy.zip">
+    <meta name="twitter:title" content="Love you Hunby">
+    <meta name="twitter:description" content="Ur borfday. ">
+    <meta name="twitter:image" content="./images/cardlogo.png">
+
+
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,7 +40,37 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+
+    <!-- Used by MUI -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <style>
+      .logo-tint {
+        filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+      }
+
+      body::-webkit-scrollbar {
+        width: 0.75em;
+      }
+
+      body::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        outline: 1px solid slategrey;
+      }
+    </style>
+
+    <title>FTLC</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
